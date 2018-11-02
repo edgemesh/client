@@ -1,6 +1,6 @@
 ---
 name: Portal Bug Report
-about: Report bugs found in Edgemesh's portal and API service
+about: Report bugs found in Edgemesh's Portal and API service
 
 ---
 

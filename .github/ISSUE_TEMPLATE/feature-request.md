@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Feature Request
 about: Suggest a feature you would like to see supported in Edgemesh
 
 ---
