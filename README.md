@@ -21,7 +21,8 @@
     <img src="https://img.shields.io/badge/%20-roadmap-green.svg?&longCache=true&style=for-the-badge" alt="Roadmap" />
   </a>
 </p>
-The purpose of this repository is to server as a knowledge base for edge**mesh** development.  Here you can request features, report bugs and find links to all the necessary resources to get started with edge**mesh**.  Please check all the [closed issues](https://github.com/edgemesh/edgemesh/issues?q=is%3Aissue+is%3Aclosed) and [wikis](https://github.com/edgemesh/edgemesh/wiki) for solutions to your problems before opening new issues.  You can also join our [discord]() for community support.
+
+The purpose of this repository is to server as a knowledge base for edge**mesh** development.  Here you can request features, report bugs and find links to all the necessary resources to get started with edge**mesh**.  Please check all the [closed issues](https://github.com/edgemesh/edgemesh/issues?q=is%3Aissue+is%3Aclosed) and [wikis](https://github.com/edgemesh/edgemesh/wiki) for solutions to your problems before opening new issues.  You can also join our [discord](https://discord.gg/K5ACGha) for community support.
 
 ## Browser Support
 
