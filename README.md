@@ -41,12 +41,20 @@ As browsers add support for the latest web features that edge**mesh** utilizes, 
 
 
 
+
 ## Supernode Architecture Support
 
 
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-<a href="LICENSE.md">
-  <img src="https://img.shields.io/badge/license-mpl--2.0-orange.svg?&longCache=true&style=for-the-badge" alt="License" />
-</a>
+<p align="center">
+  <a href="https://github.com/standard/standard">
+    <img src="https://cdn.rawgit.com/standard/standard/master/badge.svg" alt="JavaScript Style Guide" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/release/edgemesh/edgemesh.svg?&longCache=true&style=for-the-badge" alt="Version" />
+  <a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/license-mpl--2.0-orange.svg?&longCache=true&style=for-the-badge" alt="License" />
+  </a>
+</p>
