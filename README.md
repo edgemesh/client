@@ -14,10 +14,10 @@
   <a href="https://edgemesh.com/docs">
     <img src="https://img.shields.io/badge/%20-docs-lightgrey.svg?&longCache=true&style=for-the-badge" alt="Docs" />
   </a>
-  <a href="">
+  <a href="https://discord.gg/K5ACGha">
     <img src="https://img.shields.io/badge/%20-discord-7289DA.svg?&longCache=true&style=for-the-badge" alt="Discord" />
   </a>
-  <a href="https://github.com/edgemesh/projects/8">
+  <a href="https://github.com/orgs/edgemesh/projects/8">
     <img src="https://img.shields.io/badge/%20-roadmap-green.svg?&longCache=true&style=for-the-badge" alt="Roadmap" />
   </a>
 </p>
