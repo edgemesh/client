@@ -37,7 +37,7 @@ As browser vendors add support for the latest web features that edge**mesh** uti
 |----------------------------------------------------------------------------------------------------------|--------------|--------------------|----------------------------|
 | <img src="chrome.png" alt="Chrome" width="40px" height="40px" /> | 63%       | >49            | ✅ Implemented              |
 | <img src="firefox.png" alt="Firefox" width="40px" height="40px" /> | 10%         | >58     | ✅ Implemented |
-| <img src="edge.png" alt="Edge" width="40px" height="40px" /> | 4%          | Not supported      | ❌ No webrtc datachannel support |
+| <img src="edge.png" alt="Edge" width="40px" height="40px" /> | 4%          | Not supported      | ❌ No RTCDataChannel support |
 | <img src="safari.png" alt="Safari" width="40px" height="40px" /> | 4%          | >12 | ✅ Implemented |
 | <img src="opera.png" alt="Safari" width="40px" height="40px" /> | 2% | >56 | ✅ Implemented |
 
