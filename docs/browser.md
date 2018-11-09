@@ -55,10 +55,10 @@ But we can do a little better by adding `preconnect` and `preload` tags to strea
 
 ```html
 <link rel="preconnect" href="https://signal.edgeme.sh" crossorigin />
-<link rel="preload" as="script" href="https://your-site.com/service-worker.min.js" />
+<link rel="preload" as="script" href="/service-worker.min.js" />
 ```
 
-Don't forget to change `your-site.com` to your actual domain.  What we are doing here is preconnecting to the edge**mesh** backplane and prefetching your service worker.  That way when the edge**mesh** runtime goes to do its work. it already has its resources.
+What we are doing here is preconnecting to the edge**mesh** backplane and prefetching your service worker.  That way when the edge**mesh** runtime goes to do its work. it already has its resources.
 
 ## Configuration Options
 
