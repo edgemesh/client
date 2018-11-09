@@ -51,11 +51,11 @@ The easiest way to instantiate edge**mesh** is adding the following line of code
 </script>
 ```
 
-But we can do a little better by adding `preconnect` and `preload` tags to stream-line things a bit.  At the top of your `<head>` tag among your other `<link>` tags put the following:
+But we can do a little better by adding `preconnect` and `prefetch` tags to stream-line things a bit.  At the top of your `<head>` tag among your other `<link>` tags put the following:
 
 ```html
 <link rel="preconnect" href="https://signal.edgeme.sh" crossorigin />
-<link rel="preload" as="script" href="/service-worker.min.js" />
+<link rel="prefetch" as="script" href="/service-worker.min.js" />
 ```
 
 What we are doing here is preconnecting to the edge**mesh** backplane and prefetching your service worker.  That way when the edge**mesh** runtime goes to do its work. it already has its resources.
