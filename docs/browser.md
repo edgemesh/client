@@ -27,7 +27,7 @@
 </p>
 <br />
 
-The edge**mesh** browser installation method enables support for any website stack.  You just need to have access to your SSL secured web server in order to get started. 
+The edge**mesh** browser installation method enables support for any website stack.  You just need to have access to your SSL secured web server in order to get started.
 
 <br />
 
@@ -37,16 +37,16 @@ The edge**mesh** browser installation method enables support for any website sta
 2. Include the edge**mesh** runtime in the `<head>` of your `index.html` (more on this below).
 3. Verify your site on the edge**mesh** [portal](https://portal.edgemesh.com).
 
-🚀 You're done!  Your website is now running edge**mesh**! You should start seeing performance metrics in the real-time portal as users visit your site. 
+🚀 You're done!  Your website is now running edge**mesh**! You should start seeing performance metrics in the real-time portal as users visit your site.
 
 ## Instantiation
 
 The easiest way to instantiate edge**mesh** is adding the following line of code to your `<head>` tag:
 
 ```html
-<script 
-  type="text/javascript" 
-  href="https://signal.edgeme.sh/client.min.js" 
+<script
+  type="text/javascript"
+  href="https://signal.edgeme.sh/client.min.js"
   onload="window.edgemesh = new window.Edgemesh()">
 </script>
 ```
@@ -85,9 +85,9 @@ If you want to accelerate content for only one subdirectory and its children, ad
 Change edge**mesh** from `opt-out` mode to `opt-in` mode.  The edge**mesh** client will remain disabled until `edgemesh.optIn()` is called.
 
 ```html
-<script 
-  type="text/javascript" 
-  href="https://signal.edgeme.sh/client.min.js" 
+<script
+  type="text/javascript"
+  href="https://signal.edgeme.sh/client.min.js"
   onload="window.edgemesh = new window.Edgemesh({
     host: 'your.private.backplane',
     swPath: '/custom/subdirectory',
@@ -103,7 +103,7 @@ Change edge**mesh** from `opt-out` mode to `opt-in` mode.  The edge**mesh** clie
 The running edge**mesh** client is attached to the `window` object.  The runtime can be accessed through `window.edgemesh` in your application javascript or javascript console.  You can call any of the public methods listed below.  For instance, turn on the debug logging:
 
 ```javascript
-window.edgemesh.debug(true) 
+window.edgemesh.debug(true)
 // or just
 edgemesh.debug(true)
 ```
@@ -115,6 +115,14 @@ edgemesh.debug(true)
 #### debug ( `boolean` )
 
 Set the debug output.
+
+<br />
+
+#### devmode ( `boolean` )
+
+Enable or disable developer mode.
+
+> Developer mode turns off edge**mesh** for your local browser.  If you edit files directly on your live server (wordpress or other cms), you might want to consider enabling `devmode` until you have your changes finalized.  This will prevent incomplete changes from getting replicated on the network.  This way you don't have to purge your cache.
 
 <br />
 
