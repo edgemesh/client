@@ -116,7 +116,7 @@ Set the debug output.
 
 Enable or disable developer mode.
 
-> Developer mode turns off edge**mesh** for your local browser.  If you edit files directly on your live server (wordpress or other cms), you might want to consider enabling `devmode` until you have your changes finalized.  This will prevent incomplete changes from getting replicated on the network.  This way you don't have to purge your cache.
+> Developer mode turns off edge**mesh** for your local browser.  If you edit files directly on your live server (Wordpress or another CMS), you might want to consider enabling `devmode` until you have your changes finalized.  This will prevent incomplete changes from getting replicated on the network.  This way you don't have to purge your cache.
 
 <br />
 
