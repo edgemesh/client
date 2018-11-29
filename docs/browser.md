@@ -122,7 +122,11 @@ Set the debug output.
 
 Enable or disable developer mode.
 
-> Developer mode turns off edge**mesh** for your local browser.  If you edit files directly on your live server (Wordpress or another CMS), you might want to consider enabling `devmode` until you have your changes finalized.  This will prevent incomplete changes from getting replicated on the network.  This way you don't have to purge your cache.
+While `devmode` is enabled, your browser will skip the Edgemesh cache and pull the requested assets directly from origin.  Note that this is only true for your browser, other clients will continue to be served cached responses from their local Edgemesh caches.
+
+Once you are ready to commit your changes, call `edgemesh.devmode(false)` and refresh your site. Your changes will then be replicated out to the global cache.
+
+> Enabling `devmode` is important if you are editing your files directly on the origin server without changing file names for each iteration.  It also allows you to incrementally update your cache as you work on your site.
 
 <br />
 
