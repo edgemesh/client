@@ -98,6 +98,22 @@ Change edge**mesh** from `opt-out` mode to `opt-in` mode.  The edge**mesh** clie
 
 <br />
 
+#### externalMount `boolean`
+
+Prevent the edge**mesh** client from mounting its own service worker.  Useful for when you are using two service workers and need to import one into the other. See our [documentation](https://edgemesh.com/docs/getting-started/custom-sw) for more info.
+
+```html
+<script
+  type="text/javascript"
+  href="https://signal.edgeme.sh/client.min.js"
+  onload="window.edgemesh = new window.Edgemesh({
+    externalMount: true
+})">
+</script>
+```
+
+<br />
+
 ## Runtime Methods
 
 The running edge**mesh** client is attached to the `window` object.  The runtime can be accessed through `window.edgemesh` in your application javascript or javascript console.  You can call any of the public methods listed below.  For instance, turn on the debug logging:

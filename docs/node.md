@@ -91,6 +91,18 @@ const edgemesh = new Edgemesh({
 
 <br />
 
+#### externalMount `boolean`
+
+Prevent the edge**mesh** client from mounting its own service worker.  Useful for when you are using two service workers and need to import one into the other. See our [documentation](https://edgemesh.com/docs/getting-started/custom-sw) for more info.
+
+```javascript
+const edgemesh = new Edgemesh({
+    externalMount: true
+})
+```
+
+<br />
+
 ## Runtime Methods
 
 Once edge**mesh** installs, the running edge**mesh** client is attached to `window.edgemesh`.  This module itself exports an event emitter that emits a `ready` event when edge**mesh** has loaded.  It passes back a reference to the running edge**mesh** client.  You can use it to call any of the public methods listed below.  For instance, set the debug parameter when edge**mesh** loads:
