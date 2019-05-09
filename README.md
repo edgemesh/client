@@ -1,5 +1,6 @@
 <p align="center"><img height="100" src="assets/logo.svg" /></p>
-<h1 align="center">Edgemesh</h1>
+
+<br />
 
 <p align="center">
   <a href="https://edgemesh.com/docs">
@@ -12,11 +13,12 @@
     <img src="https://img.shields.io/badge/%20-roadmap-green.svg?&longCache=true&style=for-the-badge" alt="Roadmap" />
   </a>
   <a href="mailto:support@edgemesh.com">
-    <img src="https://img.shields.io/badge/%20-support-yellow.svg?&longCache=true&style=for-the-badge" alt="Supernode" />
+    <img src="https://img.shields.io/badge/%20-support-yellow.svg?&longCache=true&style=for-the-badge" alt="Support" />
   </a>
 </p>
 
-<br />
+
+<h1 align="center">Edgemesh: Accelerate Your Business</h1>
 
 The purpose of this repository is to serve as a knowledge base for Edgemesh
 development.  Here you can request features, report bugs and find links to all
