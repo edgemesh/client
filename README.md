@@ -3,7 +3,7 @@
 <br />
 
 <p align="center">
-  <a href="https://edgemesh.com/docs">
+  <a href="https://docs.edgemesh.com">
     <img src="https://img.shields.io/badge/%20-docs-lightgrey.svg?&longCache=true&style=for-the-badge" alt="Docs" />
   </a>
   <a href="https://discord.gg/K5ACGha">
@@ -22,7 +22,7 @@
 
 The purpose of this repository is to serve as a knowledge base for Edgemesh
 development.  Here you can request features, report bugs and find links to all
-the necessary resources to get started with Edgemesh.  
+the necessary resources to get started with Edgemesh.
 
 Please check all the
 [closed issues](https://github.com/edgemesh/edgemesh/issues?q=is%3Aissue+is%3Aclosed)
