@@ -1,6 +1,6 @@
 ---
 name: ⚡️ Feature Request
-about: Suggest a feature you would like to see supported in Edgemesh
+about: Suggest a feature you would like to see supported in Edgemesh Client
 
 ---
 
