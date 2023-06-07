@@ -42,9 +42,9 @@ body:
       label: Deployment Track
       description: What deployment track of our software are you running?
       options:
-        - stable (Default)
-        - canary (Edge)
-        - nightly (Development)
+        - Stable (Production)
+        - Canary (Edge)
+        - Nightly (Development)
     validations:
       required: true
   - type: dropdown
