@@ -1,5 +1,5 @@
 name: 🐞 Bug Report
-description: Report bugs found in Edgemesh® Client
+description: Report a bug found in Edgemesh® Client.
 title: "🐞 "
 labels: ["bug", "triage"]
 assignees:

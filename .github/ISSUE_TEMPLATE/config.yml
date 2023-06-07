@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Edgemesh® Support
-    url: mailto:support@edgemesh.com
-    about: Email customer support here.
-  - name: Edgemesh® Community
+  - name: 💬 Live Chat
+    url: https://edgemesh.com/
+    about: Start a live support chat on our sales site.
+  - name: 📣 Join the Community
     url: https://discord.gg/K5ACGha
-    about: Join our discord community here.
+    about: Join our discord community for announcements and support.
