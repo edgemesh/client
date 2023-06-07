@@ -73,7 +73,7 @@ body:
     id: flareId
     attributes:
       label: What is the Flare ID for this bug report?
-      description: "If you haven't generated a Flare, please do so with the [?em-controls](https://docs.edgemesh.com/client/developer/controls) search parameter."
+      description: "If you haven't generated a Flare, please do so with the [edgemesh.flare()](https://docs.edgemesh.com/client/reference/methods#flare) method or the [?em-controls](https://docs.edgemesh.com/client/developer/controls) search parameter."
       placeholder: "FlareID"
     validations:
       required: true
